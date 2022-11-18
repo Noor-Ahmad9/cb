@@ -1,0 +1,101 @@
+$body-primary-color: #18191a;
+$body-secondary-color: #1c1d1e;
+$primary-btn-color: #ffffff1a;
+$primary-btn-hover: #ffffff2d;
+$font-color-primary: #fff;
+$font-color-secondary: #c9c9c9;
+$border-radius: 10px;
+$border-color: #272727;
+
+a {
+    text-decoration: none;
+    color: $font-color-secondary;
+    margin-right: 2.2rem;
+
+    &:hover {
+        color: $font-color-secondary;
+    }
+}
+
+body {
+    background: $body-primary-color;
+    font-size: 16px;
+    line-height: 20px;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+body::-webkit-scrollbar {
+    width: 6px; /* width of the entire scrollbar */
+}
+body::-webkit-scrollbar-track {
+    background: #303030; /* color of the tracking area */
+}
+body::-webkit-scrollbar-thumb {
+    background-color: #888; /* color of the scroll thumb */
+    border-radius: 20px; /* roundness of the scroll thumb */
+}
+body::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+header {
+    .navbar {
+        background-color: $body-secondary-color;
+        .navbar-brand img {
+            width: 200px;
+            object-fit: cover;
+        }
+        .navbar-collapse {
+            .navbar-nav {
+                .nav-item:last-child {
+                    color: red;
+                    margin-right: 30px;
+                }
+            }
+            img {
+                width: 50px;
+                object-fit: cover;
+            }
+        }
+    }
+}
+
+.btn:focus,
+.form-control:focus,
+textarea:focus {
+    box-shadow: none;
+}
+
+.form-control {
+    background-color: $body-secondary-color;
+    color: $font-color-secondary;
+    border: 1px solid $border-color;
+    &:hover,
+    &:focus {
+        color: $font-color-secondary;
+        background-color: $body-secondary-color;
+    }
+}
+
+.btn-custom {
+    background-color: #ffffff0d;
+    color: $font-color-primary;
+
+    &:hover {
+        background-color: $border-color;
+        color: $font-color-primary;
+    }
+}
+
+footer {
+    .copyright-footer {
+        background: #e50916;
+        padding: 15px 0;
+        text-align: center;
+
+        .copyright {
+            text-align: center;
+        }
+    }
+}

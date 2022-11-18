@@ -1,0 +1,85 @@
+a {
+  text-decoration: none;
+  color: #c9c9c9;
+  margin-right: 2.2rem;
+}
+a:hover {
+  color: #c9c9c9;
+}
+
+body {
+  background: #18191a;
+  font-size: 16px;
+  line-height: 20px;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+body::-webkit-scrollbar {
+  width: 6px; /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+  background: #303030; /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #888; /* color of the scroll thumb */
+  border-radius: 20px; /* roundness of the scroll thumb */
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+header .navbar {
+  background-color: #1c1d1e;
+}
+header .navbar .navbar-brand img {
+  width: 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+header .navbar .navbar-collapse .navbar-nav .nav-item:last-child {
+  color: red;
+  margin-right: 30px;
+}
+header .navbar .navbar-collapse img {
+  width: 50px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.btn:focus,
+.form-control:focus,
+textarea:focus {
+  box-shadow: none;
+}
+
+.form-control {
+  background-color: #1c1d1e;
+  color: #c9c9c9;
+  border: 1px solid #272727;
+}
+.form-control:hover, .form-control:focus {
+  color: #c9c9c9;
+  background-color: #1c1d1e;
+}
+
+.btn-custom {
+  background-color: rgba(255, 255, 255, 0.0509803922);
+  color: #fff;
+}
+.btn-custom:hover {
+  background-color: #272727;
+  color: #fff;
+}
+
+footer .copyright-footer {
+  background: #e50916;
+  padding: 15px 0;
+  text-align: center;
+}
+footer .copyright-footer .copyright {
+  text-align: center;
+}/*# sourceMappingURL=main.css.map */
